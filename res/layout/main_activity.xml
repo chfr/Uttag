@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout2"
+		android:baselineAligned="false">
+		<EditText
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:singleLine="true" android:id="@+id/location_search_field"></EditText>
+		<ImageButton
+			android:layout_height="wrap_content"
+			android:src="@android:drawable/ic_menu_add"
+			android:layout_width="wrap_content" android:id="@+id/add_atm_button"></ImageButton>
+		<ImageButton
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@android:drawable/ic_menu_mylocation" android:id="@+id/get_location_button"></ImageButton>
+	</LinearLayout>
+	<com.google.android.maps.MapView
+		android:layout_width="fill_parent"
+		android:clickable="true"
+		android:layout_height="fill_parent"
+		android:apiKey="0QrZfqqieM9AGH0nfHQ9_D6YqENOZEYIQF82tzQ" android:id="@+id/main_mapview"/>
+
+
+</LinearLayout>

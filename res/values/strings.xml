@@ -2,4 +2,14 @@
 <resources>
     <string name="hello">Hello World, MainActivity!</string>
     <string name="app_name">Uttag</string>
+    <string name="location_label">Location</string>
+    <string name="choose_map_label">Chose from map</string>
+    <string name="bank_spinner_label">Bank</string>
+    <string name="bank_extra_info_label">Other info</string>
+    <string name="bank_extra_info_hint">Hours of operation, extra directions, etc.</string>
+    <string name="bank_save_button">Save</string>
+    <string name="bank_cancel_button">Cancel</string>
+    <string name="empty_string"></string>
+    <string name="location_search_hint">Search...</string>
+    <string name="tap_select">Tap to select</string>
 </resources>
