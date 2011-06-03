@@ -32,7 +32,6 @@ public class ItemizedOverlayMarker extends ItemizedOverlay<OverlayItem> {
 
 	@Override
 	protected OverlayItem createItem(int i) {
-		// TODO Auto-generated method stub
 		return mOverlays.get(i);
 	}
 	
@@ -43,7 +42,6 @@ public class ItemizedOverlayMarker extends ItemizedOverlay<OverlayItem> {
 
 	@Override
 	public int size() {
-		// TODO Auto-generated method stub
 		return mOverlays.size();
 	}
 
